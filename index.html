@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hotel Booking</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Karla|Playfair+Display" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+	<header>
+		<!-- main header -->
+		<div>
+			<!-- top header -->
+			<div class="wrapper">
+				<div>
+					<img src="../assets/temp-icon.png" alt="Icon of crescent moon hidden behind a cloud">
+					<p id="weather"></p>
+				</div>
+
+				<div>
+					<div>
+						<button>Login</button>
+						<button>Register</button>
+					</div>
+					<div>
+						<select name="language" id="language">
+							<option value="">
+								<img src="../assets/union-jack.png" alt="British flag">
+							</option>
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="wrapper">
+				<div class="logo">
+					<a href="#" title="Hotel Booking home page">
+						<img src="../assets/logo-full.png" alt="Logo for Hotel Booking, a white anchor on a pale blue background">
+					</a>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Accommodation</a></li>
+						<li><a href="#">Gallery</a></li>
+						<li>
+							Pages
+							<img src="../assets/dropdown-arrow.png" alt="Dropdown arrow">
+							<!-- pseudo -->
+							<ul>
+								<li><a href="#">About</a></li>
+								<li><a href="#">Blog</a></li>
+								<li><a href="#">Corporate</a></li>
+							</ul>
+						</li>
+						<li><a href="#">News</a></li>
+						<li><a href="#">Contacts</a></li>
+					</ul>
+				</nav>
+				<div class="phone">
+					<img src="../assets/call-icon.png" alt="Icon of a phone receiver">
+					<p>123 456 7890</p>
+				</div>
+			</div>
+			<!-- end of header navigation -->
+		</div>
+		<!-- end of header -->
+
+		<div class="wrapper">
+			<h1>Book your summer 2015 holidays with <span class="highlight">hotel</span>!</h1>
+			<i class="fa fa-chevron"></i>
+			<div>
+				<p>Special offer on booking</p>
+				<p><span class="emph">50</span>% <span class="super">off</span></p>
+			</div>
+		</div>
+		<!-- end of hero section -->
+	</header>
+
+	<main>
+		<!-- book  -->
+		<section>
+			<div class="booking wrapper">
+				<h2>Book your <span class="bold">rooms</span></h2>
+				<form action="">
+					<input type="date" placeholder="arrival">
+					<input type="date" placeholder="departure">
+					<select name="rooms" id="rooms">
+						<option value="1">1 room</option>
+					</select>
+					<select name="adult" id="adult">
+						<option value="1">1 adult</option>
+					</select>
+					<select name="child" id="child">
+						<option value="0">0 child</option>
+					</select>
+					<button>Book</button>
+				</form>
+			</div>
+			<!-- end of book -->
+
+			<div class="wrapper">
+				<div>
+					<h3><img src="../assets/restaurant-icon.png" alt="Knife and fork">Restaurant</h3>
+					<p>Semper ac dolor vitae accumsan. Cras interdum hendrerit lacinia. vitae molestie interdum.</p>
+				</div>
+				<div>
+					<h3><img src="../assets/golf-club.png" alt="Golf ball sitting on it's post">Sports Club</h3>
+					<p>Semper ac dolor vitae accumsan. Cras interdum hendrerit lacinia. vitae molestie interdum.</p>
+				</div>
+				<div>
+					<h3><img src="../assets/pickup-icon.png" alt="Side of car">Pick Up</h3>
+					<p>Semper ac dolor vitae accumsan. Cras interdum hendrerit lacinia. vitae molestie interdum.</p>
+				</div>
+				<div>
+					<h3><img src="../assets/bar-icon.png" alt="Martini glass">Bar</h3>
+					<p>Semper ac dolor vitae accumsan. Cras interdum hendrerit lacinia. vitae molestie interdum.</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- select a room -->
+		<section>
+			<h2>Select Your Room</h2>
+			<img src="../assets/fleur.png" alt="Fleur de lise">
+
+			<div class="wrapper">
+				<div>
+					<img src="" alt="">
+					<div>
+						<h3>Deluxe Room</h3>
+						<p><span class="dollar">$180</span> / night</p>
+						<button>Book</button>
+					</div>
+				</div>
+				<div>
+					<img src="" alt="">
+					<div>
+						<h3>Classic Room</h3>
+						<p><span class="dollar">$150</span> / night</p>
+						<button>Book</button>
+					</div>
+				</div>
+				<div>
+					<img src="" alt="">
+					<div>
+						<h3>Executive Room</h3>
+						<p><span class="dollar">$130</span> / night</p>
+						<button>Book</button>
+					</div>
+				</div>
+			</div>
+			<button>View All Rooms</button>
+		</section>
+
+		<section>
+			<h2>Hotel Showcase</h2>
+			<img src="../assets/fleur.png" alt="Fleur de lise">
+			<div>
+				<!-- flickity?  -->
+			</div>
+
+			<div class="wrapper">
+				<div>
+					<h3>News</h3>
+					<article>
+						<img src="" alt="">
+							<p>Quisque at felis port titordga</p>
+							<p>14 May 2014</p>
+						</img>
+					</article>
+					<article>
+						<img src="" alt="">
+							<p>Donec scelerisque vulputate</p>
+							<p>15 May 2014</p>
+						</img>
+					</article>
+					<article>
+						<img src="" alt="">
+							<p>Curabitur varius quam lorem</p>
+							<p>17 May 2014</p>
+						</img>
+					</article>
+				</div>
+				<!-- end of news -->
+
+				<div>
+					<h3>About Hotel</h3>
+					<img src="" alt="">
+					<p>Semper ac dolor vitae msan. Cras interdum hendreritnia Phasellus accumsan rna vitae molestie interdum. Nam sed placerat libero, non eleifend dolor.</p>
+				</div>
+				<!-- end of about -->
+
+				<div>
+					<h3>Customer Say's</h3>
+					<div>
+						<blockquote>
+							<p>Semper ac dolor vitae msan. Cras interdum hendreritnia Phasellus accumsan urna vitae molestie interdum.</p>
+							<p>Nam sed placerat libero, non eleifend dolor.</p>
+							<div>
+								<!-- arrow -->
+							</div>
+						</blockquote>
+						<div>
+							<img src="" alt="">
+							<p>John Doe</p>
+							<p>www.john.com</p>
+						</div>
+					</div>
+				</div>
+				<!-- end of testimonials -->
+			</div>
+
+			<div class="wrapper">
+				<div>
+					<p>Call Us</p>
+					<p>123 456 7890</p>
+				</div>
+				<div>
+					<p>Email Us</p>
+					<p>info@hotelbooking.com</p>
+				</div>
+				<div>
+					<input type="text" placeholder="Enter ID for Newsletter">
+					<button>Go</button>
+				</div>
+				<div>
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-google-plus"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+				</div>
+			</div>
+			<!-- end of contacts -->
+		</section>
+	</main>
+
+	<footer>
+		<div class="wrapper">
+			<div>
+				<h3>
+					<img src="../assets/logo-2.png" alt="">
+					Hotel <span class="brand-logo">booking</span>
+				</h3>
+				<p>Lorem ipsum dolor sit amet, conser adipiscing elit. In consectetur tincidunt dolor.</p>
+				<address>
+					St Amsterdam finland, <br />
+					United Stats of AKY16 8PN
+				</address>
+			</div>
+			<div>
+				<h3>Quick links</h3>
+			</div>
+			<div>
+				<h3>We are global</h3>
+				<img src="../assets/map.png" alt="Dotted map of the world">
+			</div>
+		</div>
+		<p>&copy; 2015 Hotelbooking. All rights reserved</p>
+	</footer>
+</body>
+</html>
