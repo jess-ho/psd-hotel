@@ -7,20 +7,20 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Karla|Playfair+Display" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="styles/styles.css">
+	<link rel="stylesheet" href="public/styles/style.css">
 </head>
 <body>
 	<header>
 		<!-- main header -->
 		<div>
 			<!-- top header -->
-			<div class="wrapper">
+			<div class="header-info wrapper">
 				<div>
 					<img src="../assets/temp-icon.png" alt="Icon of crescent moon hidden behind a cloud">
-					<p id="weather"></p>
+					<p id="weather">lorem</p>
 				</div>
 
-				<div>
+				<div class="user-btns">
 					<div>
 						<button>Login</button>
 						<button>Register</button>
@@ -33,8 +33,9 @@
 						</select>
 					</div>
 				</div>
-			</div>
-			<div class="wrapper">
+			</div> <!-- end of top header -->
+
+			<div class="header-nav wrapper">
 				<div class="logo">
 					<a href="#" title="Hotel Booking home page">
 						<img src="../assets/logo-full.png" alt="Logo for Hotel Booking, a white anchor on a pale blue background">
@@ -101,7 +102,7 @@
 			</div>
 			<!-- end of book -->
 
-			<div class="wrapper">
+			<div class="perks wrapper">
 				<div>
 					<h3><img src="../assets/restaurant-icon.png" alt="Knife and fork">Restaurant</h3>
 					<p>Semper ac dolor vitae accumsan. Cras interdum hendrerit lacinia. vitae molestie interdum.</p>
@@ -123,10 +124,10 @@
 
 		<!-- select a room -->
 		<section>
-			<h2>Select Your Room</h2>
-			<img src="../assets/fleur.png" alt="Fleur de lise">
-
 			<div class="wrapper">
+				<h2>Select Your Room</h2>
+				<img src="../assets/fleur.png" alt="Fleur de lise">
+		
 				<div>
 					<img src="" alt="">
 					<div>
@@ -151,13 +152,16 @@
 						<button>Book</button>
 					</div>
 				</div>
+				<button>View All Rooms</button>
 			</div>
-			<button>View All Rooms</button>
 		</section>
 
 		<section>
-			<h2>Hotel Showcase</h2>
-			<img src="../assets/fleur.png" alt="Fleur de lise">
+			<div class="wrapper">
+				<h2>Hotel Showcase</h2>
+				<img src="../assets/fleur.png" alt="Fleur de lise">
+			</div>
+			
 			<div>
 				<!-- flickity?  -->
 			</div>
